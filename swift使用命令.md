@@ -105,9 +105,7 @@ PS：这个命令实际上并不是下载file1文件，而是将该文件标准�
 下载file1文件并且另存为localfile1    
 >     curl -o localfile1 -H 'X-Auth-Token: AUTH_tk5a69111926e34d3da0864f144b167c65' http://127.0.0.1:8080/v1/AUTH_admin/mycontainer/file1  
 
-PS：这才是真正的下载命令，其实是curl的功能，因此和上一条命令本质上一样  
-swift -A http://127.0.0.1:8080/auth/v1.0/ -U admin:admin -K admin download mycontainer file1  
-PS：这条命令会把文件下载到当前路径下，当然也支持-o选项  
+PS：这才是真正的下载命令，其实是curl的功能，因此和上一条命令本质上一样   
 
 删除mycontainer容器  
 >     curl -X DELETE -H 'X-Auth-Token: AUTH_tk5a69111926e34d3da0864f144b167c65' http://127.0.0.1:8080/v1/AUTH_admin/mycontainer  
