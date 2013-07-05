@@ -1,6 +1,8 @@
 swift 命令及使用方法
 ============
 
+2013年7月  
+
 
 使用swift有2种命令方式  
 一种是使用swift提供的API：  
@@ -205,3 +207,6 @@ curl方式和swift方式对比
   - 不能创建account、container  
   - 不能删除container  
   - 不能格式化输出成xml或json格式文件  
+  - 
+  
+by 李舜阳(southern9cross@gmail.com)
