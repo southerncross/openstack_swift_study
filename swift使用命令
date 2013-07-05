@@ -50,9 +50,9 @@ PS: 如果没有提供token则会报这个错误
      < X-Storage-Token: AUTH_tk5a69111926e34d3da0864f144b167c65
      < Content-Length: 0
      < Date: Fri, 05 Jul 2013 01:52:02 GMT
-    < 
-    * Connection #0 to host 127.0.0.1 left intact
-    * Closing connection #0  
+     < 
+     * Connection #0 to host 127.0.0.1 left intact
+     * Closing connection #0  
 
 注意结果中的X-Storage-Url和X-Auth-Token，curl命令需要这两个值。这里二者分别为`http://127.0.0.1:8080/v1/AUTH_admin`和`AUTH_tk5a69111926e34d3da0864f144b167c65`  
 
